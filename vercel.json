@@ -5,7 +5,7 @@
         "api/index.php": { "runtime": "vercel-php@0.6.1" }
     },
     "routes": [
-        { "src": "/data", "dest": "/public/dist/data_rs.json" },
+        { "src": "/data/(.*)", "dest": "/public/dist/data_rs.json" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
