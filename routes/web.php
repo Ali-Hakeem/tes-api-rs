@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/data', [ApiController::class, 'index']);
+Route::get('/api/data', [ApiController::class, 'index']);
