@@ -59,11 +59,6 @@
             padding: 4px;
         }
 
-        .block-r {
-            background-color: tan;
-            padding: 4px;
-        }
-
         .box {
             padding: 10px;
         }
@@ -75,7 +70,9 @@
             <a class="navbar-brand" href="#">
                 <span>Tes API RS</span>
             </a>
-            <span class="version-badge">1.0</span>
+            <a class="btn btn-warning" href="https://github.com/Ali-Hakeem/tes-api-rs">
+                <code>Source Code</code>
+            </a>
         </div>
     </nav>
     <div class="content container">
@@ -87,17 +84,14 @@
         <div class="box">
             <div class="box">
             <code>
-                base_url : <span class="block">https://tes-api-rs.vercel.app</span>
+                base_url : <br><span class="block">https://tes-api-rs.vercel.app</span>
             </code>
             </div>
             <div class="box">
             <code>
-                get data : <span class="block">/api/data</span>
+                get data : <br><span class="block">/api/data</span>
             </code>
             </div>
         </div>
-        <a class="block-r" href="https://github.com/Ali-Hakeem/tes-api-rs">
-            <code>Source Code</code>
-        </a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
