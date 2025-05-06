@@ -1,6 +1,5 @@
 ## Tes API RS Indonesia
-
-Foobar is a Python library for dealing with word pluralization.
+Tes API RS merupakan API Static JSON yang berisikan daftar Rumah Sakit Nasional yang bersumber dari Internet. Hanya digunakan untuk tujuan pembelajaran. 
 
 ## Endpoints
 
